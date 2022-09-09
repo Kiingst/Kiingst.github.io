@@ -1,13 +1,6 @@
 import Foundation
 
 
-
-
-import Foundation
-
-
-
-
 func sort(ArrayFirst: [String], input: String) -> [String] {
     
     var Array = ArrayFirst
