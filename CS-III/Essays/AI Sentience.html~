@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+  <body style="background-color:rgb(253, 199, 194)";>
+    <div class="topBar">
+      <a class="active" href="#">About Me</a>
+      <a href="why.html">Why?</a>
+      <a href="classes.html">Classes</a>
+      <a href="projects.html">Projects</a>
+      <a href="2D_Shooter.html">Work in progress game</a>
+      <a href="fingerprints.html">Fingerprints</a>
+    </div>-
+
+    <div class="mainText">
+      <h1> Essays </h1>
+
+      <p> Hello, Welcome to my Digital Portfolio. My name is Kingston Armstrong. I dont really have much so far but I plan on putting alot of things in here.
+      </p>
+      <h1> Who Am I? </h1>
+      <p>
+	My name is Kingston Armstrong. Im a Senior at Allen High School and I take decided to take CS-III This year. I've been playing football at Allen for all of highschool.
+	Im number #65 this year on varsity. The main reason I take Comp Si is beacause I want to make video games. I always have had the passion for it and that is what I want to do.
+      </p>
+      <img src="IMG_4758.jpg" alt="#" >
+    </div>
+  </body>
+  </html>

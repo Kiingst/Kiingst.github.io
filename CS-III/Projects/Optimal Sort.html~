@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+  <body>
+    <div class="topBar">
+      <a href="#"> Home </a>
+
+    </div>
+
+    <h1> Project Sort </h1>
+    <div class="mainText">
+      <p> Hello I am Kingston Armstrong Welcome to my digital portofolio. Click on the other tabs to see what i have dont</p>
+    </div>
+  </body>
+  </html>
