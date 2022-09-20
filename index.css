@@ -44,3 +44,19 @@ body {
     color: rgb(0, 0, 0);
 
 }
+
+main p {
+    width: 42em;
+    font: 1em/1.4 "Cambria",Georgia, sans-serif;
+    margin-left: 1%;
+  }
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: .83em 0;
+  }
+.ref-apa h2 span, .ref-apa dt span {
+    font-size: .76em;
+    font-weight: normal;
+    opacity:.3;
+  }

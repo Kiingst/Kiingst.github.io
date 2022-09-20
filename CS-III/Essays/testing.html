@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A quick template that will allow anyone to copy and apply the CSS needed to hang references in their web publications using correct APA style syntax.">
+  <meta name="author" content="Robert Valencia">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="apa-reference-styles.css">
+  <link rel="stylesheet" href="index.css">
+  
+  
+  <style type="text/css" media="all">
+    /*  
+    Generic styling for sample, this should not be copied to your design/template.
+    */
+    main{
+      width: 42em;
+      font: 1em/1.4 "Cambria",Georgia, sans-serif;
+      margin-left: 1%;
+    }
+    h2{
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: .83em 0;
+    }
+    .ref-apa h2 span, .ref-apa dt span {
+      font-size: .76em;
+      font-weight: normal;
+      opacity:.3;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="topBar">
+    <a href="../../index.html">Home</a>
+    <a href="index.html">Essays</a>
+    <a class="active" href="#">Fingerprint Essay</a>
+    <a href="AI Sentience.html">AI Sentience</a>
+
+  </div>
+
+  <div id="container">
+
+    <div class="main">
+      <h2>Digital Fingerprints </h2>
+      <p>The internet is something we all use. We use it to play games, listen to music, talk to
+        other people, and even manage our sensitive information. To do some of these things we need a
+        Secure connection. One that will not let other people look at our Internet traffic. In the early days
+        of the internet, HTTP (Hypertext Transfer Protocol) allowed anyone between you and the
+        webserver to see your data. But in 1994 Netscape Communications created HTTPS. HTTPS is
+        just HTTP but secure that is what the S on end stands for. The purpose of an HTTPS connection
+        is to allow the transfer of data between the user and the webserver and encrypt that data so
+        anyone between you and the webserver can't see your data. This is a good thing that has
+        dramatically improved the security of the internet, but some organizations that love controlling
+        everything that their users or employees do developed a technology called HTTPS Proxy
+        Appliances. These devices can trick your browser into thinking it's securely connected to the
+        remote site by creating a fake certificate, but in the real world, the person with the proxy can
+        easily read all your internet traffic.
+        The person with the proxy is known as a MAN IN THE MIDDLE, aka MITM. This is
+        risky because you don't know what that person in the middle is doing with your internet traffic.
+        You are completely in the dark with your data that was thought to be secure. Right now you may
+        be freaking out right now, not knowing if the internet is a safe place at all for any of your
+        sensitive information, but it is ok because you can detect if your data is being intercepted with
+        hashes. These proxy appliances are able to trick your browser with a fake certificate but they are
+        not able to completely copy any website's certificate. When examining this certificate you can
+        create a hash of it a.k.a a Digital fingerprint. A Hash is a bunch of “ complex mathematical
+        3
+        algorithms which carefully process every single bit of what they “digest.” They have the
+        amazingly property that if even one bit inside the certificate is changed, an average of half of the
+        fingerprint's hash bits will change in response!”(Steve Gibson) That means when you create this
+        fingerprint of the fake certificate it will be nothing like the real one meaning you can detect when
+        you have a MITM. A Certificate Authority (CA) is a trusted establishment that will sign the
+        certificates of websites. This is something websites have to provide when the browser checks it.
+        It checks the signature and compares it to many of the CAs it trusts to sign website identities.
+        SSL interception is not something that you can turn off when connecting to a wifi network it is
+        either there or it isn't. The only way to truly know is to check with fingerprints and only connect
+        to trusted wifi networks. A false positive is when people think that there is a MITM while there
+        isn't. This is due to big websites having a lot of security certificates and when people check them
+        they might compare one valid one to a different valid one. A False negative would be when you
+        have something in the middle and it somehow tells you there is not one. I don't think that schools
+        or any organization have a right to eavesdrop on my communications. People have a right to
+        privacy and As the Supreme Court wrote, students “do not shed their constitutional rights at the
+        schoolhouse gate." So I believe that students have a right to privacy at school and everywhere.
+        Many people say that the United States was built on having freedoms. Having someone able to
+        read all your internet traffic isn't very free.’</p>
+      
+      
+      <div class="ref-apa">
+        <h2>References <span>div style</span></h2>
+        <p>Herbst-Damn, K. L., & Kulik, J. A. (2005). Volunteer support, marital status, and the survival times of terminally ill patients. <em>Health Psychology, 24</em>(1), 225-229. doi:10.1037/0278-6133.24.2.225</p>
+        <p>Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). <em>General format.</em> Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/</p>
+        <p>Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. <em>Psychology, Public Policy, & Law, 6</em>, 629-654.</p>
+        <p>Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. <em>Journal of Personality & Social Psychology, 66</em>, 1034-1048.</p>
+      </div><!-- .ref-apa -->
+      
+
+    <footer>
+      
+    </footer>
+  </div>
+</body>
+</html>
