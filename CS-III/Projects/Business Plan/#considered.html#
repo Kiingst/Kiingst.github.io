@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+  <body style="background-color:rgb(253, 199, 194)";>
+    <div class="topBar">
+      <a href="../../../index.html">Home</a>
+      <a href="../index.html">Projects</a>
+      <a href="index.html" >Business Plan</a>
+      <a class="active" href="considered.html">Considered</a>  
+    </div>
+
+    <div class="mainText">
+      <h1> Considered Projects </h1>
+      
+      <u><h2>aaron-berdecia</h2></u>
+      <p>
+	I like the game idea but it dosent do into depth about how the game would play out or the type of tower defence game.
+	https://www.codermerlin.com/users/nimrod-ohayon-rozanes/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html
+      </p>
+      <u><h2>nimrod-ohayon-rozanes </h2></u>
+      <p>
+	Making an electric motor cycle is really cool but motorcyles arent my thing and they dont intrest me.
+	<a href="https://www.codermerlin.com/users/nimrod-ohayon-rozanes/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html"> Bubble Sort Github</a>
+      </p>
+      <u><h2>Ryan-hallock</h2></u>
+      <p>
+	I like the idea of making an app that will track busses but this is nothing new and how will it be different from other apps that already exist.
+	<a href=""> Bubble Sort Github</a>
+	<a href="https://www.codermerlin.com/users/ryan-hallock/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html"> Bus app</a> 
+      </p>
+      <u><h2> Robert-Brugger</h2></u>
+      <p>
+	This game is really intresting to me. If I didnt already chose my project I would proably join this one.
+	<a href="https://www.codermerlin.com/users/robert-brugger/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html"> Rt</a>
+      </p>
+      <u><h2>COMPETITION</h2></u>
+      <p>
+	
+	<a href=""> Bubble Sort Github</a>  
+      </p>
+      <u><h2>REVENUE STREAMS</h2></u>
+      <p>
+	My revenu stream would be of game sells. If not game sells maybe in-app purchaes or adds.
+      </p>
+      <u><h2>MARKETING STREAMS</h2></u>
+      <p>
+	I can market this project through differnt gamming communites or paying youtubers or twitch streamers to try out the game. 
+      </p>
+      <u><h2>EXPENSES</h2></u>
+      <p>
+	My expences would be my time and development. And If i want to truly sell this to people I need to get a artist to design the art for the game.
+      </p>
+      <u><h2>TEAM AND KEY ROLES</h2></u>
+      <p>
+	I dont expect there to be a big team for this so for an team. We would have A Project Lead that would oversee eveything. Then a person that would see the art direction and where that would go.
+	</p>
+    </div>
+  </body>
+  </html>

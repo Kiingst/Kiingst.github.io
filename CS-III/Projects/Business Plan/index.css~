@@ -1,0 +1,46 @@
+.topBar {
+    overflow: hidden;
+    background-color: darkred;
+}
+.topBar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topBar a:hover {
+    background-color: #804e45;
+}
+
+.topBar a.active {
+    background-color: #804e45;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(253, 199, 194); 
+}
+.mainText {
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    width: 98%;
+}
+.mainText p {
+    width: 50%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 25px
+}
+
+.mainText h1 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size:55px;
+
+}
