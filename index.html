@@ -1,56 +1,120 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Digital Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    
-  </head>
-  <body style="background-color:rgb(253, 199, 194)" >
-    
-    <div class="topBar">
-      <a class="active" href="#">About Me</a>
-      <a href="Game%20Files/2dSHooter.html">Work in progress game</a>
-      <a href="CS-III/Essays/index.html">Essays</a>
-      <a href="CS-III/Projects/index.html">Projects</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+        }
+        .about-me {
+            display: flex;
+            align-items: center;
+        }
+        .about-me img {
+            width: 200px; /* Adjust size as needed */
+            border-radius: 50%; /* Makes the image round */
+            margin-right: 20px; /* Add some spacing */
+        }
+        .project {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .project h3 {
+            margin-bottom: 5px;
+        }
+        .contact-form {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        .contact-form input[type="text"], .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-me">
+                <img src="your-photo.jpg" alt="Your Name">
+                <p>Write a brief introduction about yourself and your skills.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Simple Matching Game</h3>
+                <p>Just a simple matching game. When I made this game I focused mainly on the aesthetics of the game. </p>
+                <a href="Matching_game/index.html">View Project</a>
+            </div>
+            <!-- Add more project sections as needed -->
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Add your resume or CV content here.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required><br>
+                    <input type="text" name="email" placeholder="Your Email" required><br>
+                    <textarea name="message" placeholder="Your Message" required></textarea><br>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </section>
     </div>
-
-    <div class="mainText">
-      <h1> Kingston Armstrong's Digital Portfolio </h1>
-      
-      
-    <div class= "row">
-      <div class="column">
-       
-      
-      <h2> Who Am I? </h2>
-      
-      <p>
-	I'm a High school senior. Growing up I have always wanted to make video games. Thats why I started studying Computer Science. Throughout my life I've loved learing about how games were made. Whether it be how life influenced the design of the game or how certain game mechincs were exploited and used to benifit the player in a way the dev didnt expect. I just loved the community games created, and I really want to be apart of that. <br><br>
-	I also play Varsity football. I start at guard for the Allen Eagles. I have worked extremely hard for where I am and I dont plan to stop. To The left is a few photos taken of me on the field, I love the sport and I hope I can continue this later in my life. <br><br>
-	<a href="https://github.com/Kiingst/Kiingst.github.io">This Website is being hosted Here on Github</a>
-      </p>
-      <img src="IMG_7842.jpg" alt="#" >
-      </div>
-      
-      <div class="column">
-	
-	<div class= "row">
-	  <div class="column">
-	    <img src="IMG_2584.JPG" alt="#" >
-	    <img src="IMG_4758.jpg" alt="#" >
-	    <img src="IMG_6751.png" alt="#" >
-	  </div>
-	  <div class="column">
-	    <img src="IMG_5191.png" alt="#" >
-	    <img src="IMG_5407.JPEG" alt="#" >
-	    
-	  </div> 
-	</div>
-	
-      </div>      
-    </div> 
-  
-    </div>
-  </body>
+</body>
 </html>
